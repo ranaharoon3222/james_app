@@ -2203,6 +2203,10 @@ html {
     padding-right: 1.25rem;
   }
 
+  .xl\:pr-3 {
+    padding-right: 0.75rem;
+  }
+
   .xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
