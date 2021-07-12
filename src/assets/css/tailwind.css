@@ -1562,6 +1562,16 @@ html {
   margin-bottom: 1rem;
 }
 
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1780,6 +1790,10 @@ html {
   border-radius: 0.375rem;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -1910,6 +1924,16 @@ html {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .pt-3 {
@@ -2075,12 +2099,25 @@ html {
     margin-bottom: 0.25rem;
   }
 
+  .xl\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .xl\:mt-0 {
     margin-top: 0px;
   }
 
   .xl\:ml-auto {
     margin-left: auto;
+  }
+
+  .xl\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .xl\:mr-4 {
+    margin-right: 1rem;
   }
 
   .xl\:block {
@@ -2101,6 +2138,10 @@ html {
 
   .xl\:min-h-\[600px\] {
     min-height: 600px;
+  }
+
+  .xl\:min-h-\[590px\] {
+    min-height: 590px;
   }
 
   .xl\:w-1\/12 {
@@ -2151,6 +2192,11 @@ html {
   .xl\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .xl\:px-11 {
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
   }
 
   .xl\:pr-5 {
