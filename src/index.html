@@ -175,136 +175,270 @@
           </div>
         </div>
       </div>
+      <!-- end property section -->
 
-      <!-- property section -->
+
       <!-- Tab Section -->
       <div class="mt-10 mb-4 tabs">
-        <a class="px-0 pb-3 mx-4 text-lg font-bold border-b-2 border-transparent text-secondary">Overview</a>
-        <a class="px-0 pb-3 mx-4 text-lg font-bold border-b-2 border-primary text-primary">Tenancies</a>
-        <a class="px-0 pb-3 mx-4 text-lg font-bold border-b-2 border-transparent text-secondary">Inspections</a>
-        <a class="px-0 pb-3 mx-4 text-lg font-bold border-b-2 border-transparent text-secondary">Activity</a>
+        <a class="px-0 pb-3 mx-4 text-lg font-bold border-b-2 border-transparent text-secondary"
+          href="#Overview">Overview</a>
+        <a class="px-0 pb-3 mx-4 text-lg font-bold border-b-2 border-primary text-primary"
+          href="#Tenancies">Tenancies</a>
+        <a class="px-0 pb-3 mx-4 text-lg font-bold border-b-2 border-transparent text-secondary"
+          href="#Inspections">Inspections</a>
+        <a class="px-0 pb-3 mx-4 text-lg font-bold border-b-2 border-transparent text-secondary" href="#Activity"
+          id="default-tab">Activity</a>
       </div>
       <!-- Tab Section -->
 
       <!-- Tab 1 -->
-      <div class="flex flex-wrap ">
-        <div class="w-full my-4 xl:px-4 xl:w-2/3 xl:my-0">
-          <div class="bg-white overflow-hidden shadow-md xl:min-h-[600px] rounded-lg pb-3  h-full ">
-            <h1 class="py-5 px-3 text-lg font-bold border-b-[1px] border-gray-300 text-secondary">Tenancy Details</h1>
-            <div class="flex flex-wrap px-4 overflow-hidden xl:h-full ">
+      <div class=" tab-contents" id="Overview">
+        <div class="flex flex-wrap ">
+          <div class="w-full my-4 xl:px-4 xl:w-2/3 xl:my-0">
+            <div class="bg-white overflow-hidden shadow-md xl:min-h-[600px] rounded-lg pb-3  h-full ">
+              <h1 class="py-5 px-3 text-lg font-bold border-b-[1px] border-gray-300 text-secondary">Tenancy Details</h1>
+              <div class="flex flex-wrap px-4 overflow-hidden xl:h-full ">
 
-              <div
-                class="w-full overflow-hidden border-b-[1px] pb-3 xl:border-b-0 xl:border-r-[1px] border-gray-300 xl:w-1/2">
-                <!-- Column Content -->
-                <div>
-                  <h5 class="pt-6 font-bold text-secondary">Tenancy Name</h5>
-                  <h3 class="font-bold text-secondary-focus ">ARP001NZ-CCH001-02 - Simpson, Griffin</h3>
-                </div>
-                <div>
-                  <h5 class="pt-6 font-bold text-secondary">Tenants</h5>
-                  <h3 class="font-bold text-secondary-focus ">Homer Simpson <br /> Peter Griffin</h3>
-                </div>
-                <div>
-                  <h5 class="pt-6 font-bold text-secondary">Tenancy Type</h5>
-                  <h3 class="font-bold text-secondary-focus ">Fixed Term</h3>
-                </div>
-
-                <div class="flex flex-wrap overflow-hidden">
-                  <div class="w-1/2">
-                    <h5 class="pt-6 font-bold text-secondary">Start Date</h5>
-                    <h3 class="font-bold text-secondary-focus ">25/6/2021</h3>
+                <div
+                  class="w-full overflow-hidden border-b-[1px] pb-3 xl:border-b-0 xl:border-r-[1px] border-gray-300 xl:w-1/2">
+                  <!-- Column Content -->
+                  <div>
+                    <h5 class="pt-6 font-bold text-secondary">Tenancy Name</h5>
+                    <h3 class="font-bold text-secondary-focus ">ARP001NZ-CCH001-02 - Simpson, Griffin</h3>
                   </div>
-                  <div class="w-1/2">
-                    <h5 class="pt-6 font-bold text-secondary">End Date</h5>
-                    <h3 class="font-bold text-secondary-focus ">25/6/2021</h3>
+                  <div>
+                    <h5 class="pt-6 font-bold text-secondary">Tenants</h5>
+                    <h3 class="font-bold text-secondary-focus ">Homer Simpson <br /> Peter Griffin</h3>
+                  </div>
+                  <div>
+                    <h5 class="pt-6 font-bold text-secondary">Tenancy Type</h5>
+                    <h3 class="font-bold text-secondary-focus ">Fixed Term</h3>
+                  </div>
+
+                  <div class="flex flex-wrap overflow-hidden">
+                    <div class="w-1/2">
+                      <h5 class="pt-6 font-bold text-secondary">Start Date</h5>
+                      <h3 class="font-bold text-secondary-focus ">25/6/2021</h3>
+                    </div>
+                    <div class="w-1/2">
+                      <h5 class="pt-6 font-bold text-secondary">End Date</h5>
+                      <h3 class="font-bold text-secondary-focus ">25/6/2021</h3>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="w-full px-0 overflow-hidden xl:px-4 xl:w-1/2">
+                  <!-- Column Content -->
+                  <div>
+                    <h5 class="pt-6 font-bold text-secondary">Current Rent</h5>
+                    <h3 class="text-3xl font-bold text-secondary-focus ">$475<span
+                        class="text-xs font-extrabold">pw</span>
+                    </h3>
+                  </div>
+                  <div>
+                    <h5 class="pt-6 font-bold text-secondary">Rent Last Changed</h5>
+                    <h3 class="font-bold text-secondary-focus">25/6/2021 </h3>
                   </div>
                 </div>
 
-              </div>
-
-              <div class="w-full px-0 overflow-hidden xl:px-4 xl:w-1/2">
-                <!-- Column Content -->
-                <div>
-                  <h5 class="pt-6 font-bold text-secondary">Current Rent</h5>
-                  <h3 class="text-3xl font-bold text-secondary-focus ">$475<span
-                      class="text-xs font-extrabold">pw</span>
-                  </h3>
-                </div>
-                <div>
-                  <h5 class="pt-6 font-bold text-secondary">Rent Last Changed</h5>
-                  <h3 class="font-bold text-secondary-focus">25/6/2021 </h3>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="w-full px-3 my-4 bg-white rounded-lg shadow-md xl:my-0 xl:px-4 xl:w-1/3">
-          <!-- Column Content -->
-          <div class="pb-3 mb-5 overflow-hidden xl:mb-0 xl:my-1">
-            <div class="flex py-3  items-center border-b-[1px] border-gray-300    flex-wrap ">
-              <div class="w-[55%]">
-                <h1 class="text-lg font-bold text-secondary">Tenancy Documents</h1>
-              </div>
-              <div class="w-[45%] font-bold text-secondary flex justify-end">
-                <div class="w-full dropdown dropdown-end dropdown-hover max-w-[145px]">
-                  <div tabindex="0"
-                    class="px-2 py-1 border-2 border-accent-focus min-w-[110px] text-center flex items-center justify-center">
-                    <span class="mr-1 text-lg material-icons">
-                      filter_alt
-                    </span> Filter <span
-                      class="w-5 h-5 ml-1 text-xs rounded-md text-secondary bg-accent-focus leading-[1.55] ">3</span>
-                    <span class="ml-1 material-icons">expand_more</span>
-                  </div>
-                  <ul class="shadow menu dropdown-content bg-base-100 rounded-box w-52">
-                    <li>
-                      <a>Item 1</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div class="mx-1 pb-3 pt-4 border-b-[1px] border-gray-300 flex overflow-hidden items-center">
-              <div class="w-10/12">
-                <h1 class="text-xs font-bold xl:text-lg text-secondary-focus">Document Name - Hello World</h1>
-                <span class="text-xs text-secondary xl:text-base">25/3/2021</span>
-              </div>
-              <div class="w-2/12 text-center">
-                <span class="material-icons text-primary">
-                  file_download
-                </span>
-              </div>
-            </div>
-            <div class="mx-1 pb-3 pt-4 border-b-[1px] border-gray-300 flex overflow-hidden items-center">
-              <div class="w-10/12">
-                <h1 class="text-xs font-bold xl:text-lg text-secondary-focus">Document Name - Hello World</h1>
-                <span class="text-xs text-secondary xl:text-base">25/3/2021</span>
-              </div>
-              <div class="w-2/12 text-center">
-                <span class="material-icons text-primary">
-                  file_download
-                </span>
-              </div>
-            </div>
-            <div class="mx-1 pb-3 pt-4 border-b-[1px] border-gray-300 flex overflow-hidden items-center">
-              <div class="w-10/12">
-                <h1 class="text-xs font-bold xl:text-lg text-secondary-focus">Document Name - Hello World</h1>
-                <span class="text-xs text-secondary xl:text-base">25/3/2021</span>
-              </div>
-              <div class="w-2/12 text-center">
-                <span class="material-icons text-primary">
-                  file_download
-                </span>
               </div>
             </div>
           </div>
-        </div>
 
+          <div class="w-full px-3 my-4 bg-white rounded-lg shadow-md xl:my-0 xl:px-4 xl:w-1/3">
+            <!-- Column Content -->
+            <div class="pb-3 mb-5 overflow-hidden xl:mb-0 xl:my-1">
+              <div class="flex py-3  items-center border-b-[1px] border-gray-300    flex-wrap ">
+                <div class="w-[55%]">
+                  <h1 class="text-lg font-bold text-secondary">Tenancy Documents</h1>
+                </div>
+                <div class="w-[45%] font-bold text-secondary flex justify-end">
+                  <div class="w-full dropdown dropdown-end dropdown-hover max-w-[145px]">
+                    <div tabindex="0"
+                      class="px-2 py-1 border-2 border-accent-focus min-w-[110px] text-center flex items-center justify-center">
+                      <span class="mr-1 text-lg material-icons">
+                        filter_alt
+                      </span> Filter <span
+                        class="w-5 h-5 ml-1 text-xs rounded-md text-secondary bg-accent-focus leading-[1.55] ">3</span>
+                      <span class="ml-1 material-icons">expand_more</span>
+                    </div>
+                    <ul class="shadow menu dropdown-content bg-base-100 rounded-box w-52">
+                      <li>
+                        <a>Item 1</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mx-1 pb-3 pt-4 border-b-[1px] border-gray-300 flex overflow-hidden items-center">
+                <div class="w-10/12">
+                  <h1 class="text-xs font-bold xl:text-lg text-secondary-focus">Document Name - Hello World</h1>
+                  <span class="text-xs text-secondary xl:text-base">25/3/2021</span>
+                </div>
+                <div class="w-2/12 text-center">
+                  <span class="material-icons text-primary">
+                    file_download
+                  </span>
+                </div>
+              </div>
+              <div class="mx-1 pb-3 pt-4 border-b-[1px] border-gray-300 flex overflow-hidden items-center">
+                <div class="w-10/12">
+                  <h1 class="text-xs font-bold xl:text-lg text-secondary-focus">Document Name - Hello World</h1>
+                  <span class="text-xs text-secondary xl:text-base">25/3/2021</span>
+                </div>
+                <div class="w-2/12 text-center">
+                  <span class="material-icons text-primary">
+                    file_download
+                  </span>
+                </div>
+              </div>
+              <div class="mx-1 pb-3 pt-4 border-b-[1px] border-gray-300 flex overflow-hidden items-center">
+                <div class="w-10/12">
+                  <h1 class="text-xs font-bold xl:text-lg text-secondary-focus">Document Name - Hello World</h1>
+                  <span class="text-xs text-secondary xl:text-base">25/3/2021</span>
+                </div>
+                <div class="w-2/12 text-center">
+                  <span class="material-icons text-primary">
+                    file_download
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
-      <!--  Tab 2 -->
 
+      <!-- end Tab 1 -->
+
+
+      <!-- Activity Tab -->
+      <div class="hidden tab-contents" id="Activity">
+        <div class="flex flex-wrap ">
+          <div class="w-full px-0  xl:min-h-[600px] shadow-md bg-white xl:mx-4 rounded-lg  mb-5 pb-8 ">
+            <h1 class="py-5 px-4  xl:px-5 text-lg font-bold border-b-[1px] border-gray-300 text-secondary">Activity</h1>
+
+            <div class="relative px-3 xl:ml-20">
+              <!-- verticle line start -->
+              <div
+                class="absolute top-7  w-[1px] h-[calc(100%-20px)] bg-accent-focus left-[2.1rem] xl:left-[1.4rem]  max-w-[700px]">
+              </div>
+              <!-- verticle line end -->
+
+              <!-- container start -->
+              <!-- Timeline  -->
+              <div class="flex max-w-[700px] pt-6 relative ">
+                <div>
+                  <span
+                    class="flex items-center justify-center ml-auto text-white rounded-full material-icons bg-secondary h-11 w-11">
+                    update
+                  </span>
+                </div>
+                <div class="w-4/5 pl-5">
+                  <h3 class="font-bold text-secondary-focus">Tenancies become periodic</h3>
+                  <span class="block text-xs">16 December 2021</span>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi</p>
+                </div>
+              </div>
+              <!-- end Timeline  -->
+
+              <!-- Timeline  -->
+              <div class="flex max-w-[700px] pt-6 relative ">
+                <div>
+                  <span
+                    class="flex items-center justify-center ml-auto text-white rounded-full material-icons bg-secondary h-11 w-11">
+                    update
+                  </span>
+                </div>
+                <div class="w-4/5 pl-5">
+                  <h3 class="font-bold text-secondary-focus">Tenancies become periodic</h3>
+                  <span class="block text-xs">16 December 2021</span>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi</p>
+                </div>
+              </div>
+              <!-- end Timeline  -->
+              <!-- Timeline  -->
+              <div class="flex max-w-[700px] pt-6 relative ">
+                <div>
+                  <span
+                    class="flex items-center justify-center ml-auto text-white rounded-full material-icons bg-secondary h-11 w-11">
+                    update
+                  </span>
+                </div>
+                <div class="w-4/5 pl-5">
+                  <h3 class="font-bold text-secondary-focus">Tenancies become periodic</h3>
+                  <span class="block text-xs">16 December 2021</span>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi</p>
+                </div>
+              </div>
+              <!-- end Timeline  -->
+              <!-- Timeline  -->
+              <div class="flex max-w-[700px] pt-6 relative">
+                <div>
+                  <span
+                    class="flex items-center justify-center ml-auto text-white bg-red-500 rounded-full material-icons h-11 w-11">
+                    update
+                  </span>
+                </div>
+                <div class="w-4/5 pl-5">
+                  <h3 class="font-bold text-secondary-focus">Tenancies become periodic</h3>
+                  <span class="block text-xs">16 December 2021</span>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi</p>
+                </div>
+              </div>
+              <!-- end Timeline  -->
+              <!-- Timeline  -->
+              <div class="flex max-w-[700px] pt-6 relative">
+                <div>
+                  <span
+                    class="flex items-center justify-center ml-auto text-white rounded-full material-icons bg-primary h-11 w-11">
+                    update
+                  </span>
+                </div>
+                <div class="w-4/5 pl-5">
+                  <h3 class="font-bold text-secondary-focus">Tenancies become periodic</h3>
+                  <span class="block text-xs">16 December 2021</span>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi</p>
+                </div>
+              </div>
+              <!-- end Timeline  -->
+              <!-- Timeline  -->
+              <div class="flex max-w-[700px] pt-6 relative">
+                <div>
+                  <span
+                    class="flex items-center justify-center ml-auto text-white rounded-full material-icons bg-secondary h-11 w-11">
+                    update
+                  </span>
+                </div>
+                <div class="w-4/5 pl-5">
+                  <h3 class="font-bold text-secondary-focus">Tenancies become periodic</h3>
+                  <span class="block text-xs">16 December 2021</span>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi</p>
+                </div>
+              </div>
+              <!-- end Timeline  -->
+              <!-- container end -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- End Activity Tab -->
+
+      <!-- Inspections Tab -->
+      <div class="hidden tab-contents" id="Inspections"> </div>
+      <!-- End Inspections Tab -->
+      <!-- Tenancies Tab -->
+      <div class="hidden tab-contents" id="Tenancies"> </div>
+      <!-- End Tenancies Tab -->
     </div>
     <!-- end main content -->
   </div>

@@ -2,9 +2,53 @@ const menuBtn = document.getElementById("toggle-drawer")
 const drawer = document.getElementById('drawer-content')
 const drawerClose = document.getElementById('close-drawer')
 
-menuBtn.addEventListener("click", ()=> {
-drawer.classList.toggle('translate-x-0')
+
+const OverviewTab = document.getElementById('Overview');
+const TenanciesTab = document.getElementById('Tenancies');
+const InspectionsTab = document.getElementById('Inspections');
+const ActivityTab = document.getElementById('Activity');
+
+menuBtn.addEventListener("click", () => {
+    drawer.classList.toggle('translate-x-0')
 })
-drawerClose.addEventListener("click", ()=> {
+drawerClose.addEventListener("click", () => {
     drawer.classList.remove('translate-x-0')
- })
+});
+
+
+
+
+let tabsContainer = document.querySelector(".tabs");
+
+let tabTogglers = tabsContainer.querySelectorAll("a");
+
+tabTogglers.forEach(function (toggler) {
+    toggler.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        let tabName = this.getAttribute("href");
+
+        let tabContents = document.querySelectorAll(".tab-contents");
+
+        toggler.classList.remove("border-primary");
+
+
+        for (const tabContent of tabContents) {
+            for (let i = 0; i < tabContents.length; i++) {
+                tabTogglers[i].classList.remove("border-primary", "text-primary");
+                tabTogglers[i].classList.add("text-secondary");
+                tabContent.classList.remove("hidden");
+                if ("#" + tabContent.id === tabName) {
+                    continue;
+                }
+                tabContent.classList.add("hidden");
+
+            }
+        }
+
+
+        e.target.classList.add("border-primary", "text-primary");
+    });
+});
+
+// document.getElementById("default-tab").click();
