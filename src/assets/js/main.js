@@ -2,21 +2,12 @@ const menuBtn = document.getElementById("toggle-drawer")
 const drawer = document.getElementById('drawer-content')
 const drawerClose = document.getElementById('close-drawer')
 
-
-const OverviewTab = document.getElementById('Overview');
-const TenanciesTab = document.getElementById('Tenancies');
-const InspectionsTab = document.getElementById('Inspections');
-const ActivityTab = document.getElementById('Activity');
-
 menuBtn.addEventListener("click", () => {
     drawer.classList.toggle('translate-x-0')
 })
 drawerClose.addEventListener("click", () => {
     drawer.classList.remove('translate-x-0')
 });
-
-
-
 
 let tabsContainer = document.querySelector(".tabs");
 
