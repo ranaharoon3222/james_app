@@ -27,6 +27,7 @@ tabTogglers.forEach(function (toggler) {
         for (const tabContent of tabContents) {
             for (let i = 0; i < tabContents.length; i++) {
                 tabTogglers[i].classList.remove("border-primary", "text-primary");
+                tabTogglers[i].classList.add("border-transparent");
                 tabTogglers[i].classList.add("text-secondary");
                 tabContent.classList.remove("hidden");
                 if ("#" + tabContent.id === tabName) {
@@ -39,6 +40,7 @@ tabTogglers.forEach(function (toggler) {
 
 
         e.target.classList.add("border-primary", "text-primary");
+        e.target.classList.remove("border-transparent");
     });
 });
 
