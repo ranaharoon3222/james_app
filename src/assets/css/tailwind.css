@@ -1874,6 +1874,10 @@ html {
   z-index: 10;
 }
 
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
 .m-1 {
   margin: 0.25rem;
 }
@@ -1910,6 +1914,11 @@ html {
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mb-2 {
@@ -2002,6 +2011,10 @@ html {
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .hidden {
@@ -2132,6 +2145,14 @@ html {
   width: 16.666667%;
 }
 
+.w-\[2px\] {
+  width: 2px;
+}
+
+.w-\[1\.5px\] {
+  width: 1.5px;
+}
+
 .min-w-\[82px\] {
   min-width: 82px;
 }
@@ -2198,6 +2219,14 @@ html {
   transform: var(--tw-transform);
 }
 
+.auto-rows-auto {
+  grid-auto-rows: auto;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -2216,6 +2245,10 @@ html {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .overflow-hidden {
@@ -2263,6 +2296,10 @@ html {
 }
 
 .border-b-\[1px\] {
+  border-bottom-width: 1px;
+}
+
+.border-b {
   border-bottom-width: 1px;
 }
 
@@ -2370,6 +2407,16 @@ html {
   background-color: rgba(227, 114, 34, var(--tw-bg-opacity));
 }
 
+.bg-\[\#F9F9F9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgba(249, 249, 249, var(--tw-bg-opacity));
+}
+
+.bg-\[\#E8E8F1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgba(232, 232, 241, var(--tw-bg-opacity));
+}
+
 .bg-none {
   background-image: none;
 }
@@ -2454,6 +2501,16 @@ html {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .pt-3 {
@@ -2648,6 +2705,11 @@ html {
   color: rgba(31, 41, 55, var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
+
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -2747,6 +2809,10 @@ arrow:focus:not(.collapse-close) .collapse-title:after,
   .sm\:ml-10 {
     margin-left: 2.5rem;
   }
+
+  .sm\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 
 @media (min-width: 768px) {
@@ -2800,6 +2866,11 @@ arrow:focus:not(.collapse-close) .collapse-title:after,
 
   .md\:p-4 {
     padding: 1rem;
+  }
+
+  .md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .md\:pl-20 {
