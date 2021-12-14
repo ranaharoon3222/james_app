@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 html {
-  font-size: 80%;
+  font-size: 80% !important;
 }
 
 .collapse-title:after {
