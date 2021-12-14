@@ -94,9 +94,9 @@
   <div class="flex flex-wrap w-full md:flex-nowrap">
     <!-- Drawer Side Menu -->
     <div
-      class="fixed top-0 left-0 w-56 h-screen p-3 m-0 transition-all -translate-x-full bg-white shadow-md xl:bg-accent xl:p-0 xl:shadow-none xl-p-0 xl:m-4 menu-drawer xl:relative xl:transform-none"
+      class="fixed top-0 left-0 z-50 w-64 h-screen p-3 m-0 transition-all -translate-x-full bg-white shadow-md xl:bg-accent xl:p-0 xl:shadow-none xl-p-0 xl:m-4 menu-drawer xl:relative xl:transform-none"
       id="drawer-content">
-      <div class="fixed top-0 w-56 h-screen">
+      <div class="fixed top-0 w-64 h-screen">
         <span id="close-drawer"
           class="absolute flex items-center justify-center rounded-full xl:hidden ring-secondary top-3 right-7 w-7 h-7 ring-4 material-icons">
           close
@@ -108,7 +108,8 @@
         <ul class="p-0">
           <li class="flex items-center mb-4">
             <span class="material-icons text-secondary"> speed </span>
-            <a href="index.html"> <span class="ml-3 text-base font-semibold text-secondary">Dashboard</span> </a>
+            <a href="index.html"> <span class="ml-3 text-base font-semibold text-secondary">Dashboard</span>
+            </a>
           </li>
           <li class="flex items-center mb-4">
             <span class="material-icons text-secondary"> house </span>
@@ -142,9 +143,11 @@
           </li>
         </ul>
         <div class="absolute left-3 bottom-4">
-          <a href=""> <span class="block mt-2 font-semibold text-secondary">Terms of Service</span></a>
-          <a href=""> <span class="block mt-2 font-semibold text-secondary">Privacy Policy</span></a>
-          <a href=""> <span class="block mt-2 font-semibold text-secondary">© KITT Technologies
+          <a href="https://kitt.co.nz/privacy-policy/" target="_blank"> <span
+              class="block mt-2 font-semibold text-secondary">Terms of Service</span></a>
+          <a href="https://kitt.co.nz/privacy-policy/" target="_blank"> <span
+              class="block mt-2 font-semibold text-secondary">Privacy Policy</span></a>
+          <a href="#"> <span class="block mt-2 font-semibold text-secondary">© KITT Technologies
               2021</span></a>
         </div>
       </div>
